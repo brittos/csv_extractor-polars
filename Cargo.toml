@@ -1,0 +1,9 @@
+[package]
+name = "csv_extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { version = "0.40.0", features = ["serde", "csv", "parquet"] }
+
+
